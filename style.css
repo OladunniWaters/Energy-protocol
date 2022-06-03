@@ -1,0 +1,448 @@
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/*----Navbar-----*/
+nav{
+    background: #320a84;
+    
+}
+
+.nav-item{
+    color: white;
+    font-weight: bold;
+    
+}
+
+#menu-btn{
+    width: 30px;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+#launch-app-btn{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #320a84;
+    transition: background 0.5s, color 0.5s;
+}
+
+#launch-app-btn:hover{
+    border: 2px solid white;
+   background: #300888;
+   color: white; 
+}
+
+/*-----Home-----*/
+#home{
+    background: #320a84;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:600px;
+    clip-path: ellipse(100% 60% at 50% 40%);
+}
+
+#home-header h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#home-header h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#home-header p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #7ffff5;
+    text-align: center;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-top: 20px;
+    width: 150px;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #320a84;
+    font-weight: bold;
+    transition: background 0.5s, color 0.5s;
+}
+
+button:hover{
+    border: 2px solid white;
+    background: #320a84;
+    color: white;
+}
+
+
+
+/*-----Features-----*/
+
+#features1-col{
+    margin-top: 40px;
+}
+
+#features1-col h1{
+    margin-bottom: 5px;
+}
+
+#features1-col p{
+    line-height: 25px;
+}
+
+#features1-img img{
+    width: 400px;
+}
+
+/*---- Features Image Animation---*/
+#features1-img img{
+    animation: float ease-in-out 5s infinite
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.features-btn{
+    display: flex;
+}
+
+#common-button{
+    width: 150px;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+    background: #623fd1;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: background 0.5s, color 0.5s;
+    
+}
+
+#common-button:hover{
+    background: white;
+    color: #623fd1;
+}
+
+
+.goverance-row{
+    background-color: rgb(245, 245, 255);
+}
+
+#features2-col{
+    margin-top: 40px;
+}
+
+#features2-col h1{
+    margin-bottom: 5px;
+}
+
+#features2-col p{
+    line-height: 25px;
+}
+
+#features2-img img{
+    width: 400px;
+}
+
+/*---- Features Image Animation---*/
+#features2-img img{
+    animation: float ease-in-out 5s infinite
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+#features3-col{
+    margin-top: 40px;
+}
+
+#features3-col h1{
+    margin-bottom: 5px;
+}
+
+#features3-col p{
+    line-height: 25px;
+}
+
+#features3-img img{
+    width: 400px;
+}
+
+/*---- Features Image Animation---*/
+#features3-img img{
+    animation: float ease-in-out 5s infinite
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+#decentralized{
+    background-color: rgb(245, 245, 255);
+}
+
+#features4-col{
+    margin-top: 40px;
+}
+
+#features4-col h1{
+    margin-bottom: 5px;
+}
+
+#features4-col p{
+    line-height: 25px;
+}
+
+#features4-img img{
+    width: 400px;
+}
+
+/*---- Features Image Animation---*/
+#features4-img img{
+    animation: rotate linear 25s infinite
+}
+
+@keyframes rotate {
+   from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  } 
+}
+
+
+/*---- Sponsors -----*/
+
+
+.sponsor-header h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+
+}
+
+.sponsor{
+    margin-left: 120px;
+}
+
+
+#sponsor1-left-col img{
+   width: 250px; 
+}
+
+
+#sponsor1-middle-col img{
+    width: 200px;
+}
+
+#sponsor1-right-col img{
+    width: 200px;
+}
+
+
+#sponsor2{
+    margin-top: 50px;
+}
+
+#sponsor2-left-col img{
+   width: 100px; 
+}
+
+#sponsor2-middle-col img{
+    width: 100px;
+}
+
+#sponsor2-right-col img{
+    width: 100px;
+}
+
+
+#sponsor3{
+    margin-top: 50px;
+}
+
+#sponsor3-left-col img{
+   width: 100px; 
+}
+
+#sponsor3-middle-col img{
+    width: 70px;
+}
+
+#sponsor3-right-col img{
+    width: 200px;
+}
+
+
+/*----- Newsletter -----*/
+
+#newsletter{
+    background-color: rgb(245, 245, 255); 
+    position: relative;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -50px;
+}
+
+#newsletter h4{
+    text-align: center;
+}
+
+.input-group{
+    border: none;
+    border-radius: 5px;
+}
+
+#subscribe-btn-container{
+  display: flex;  
+  justify-content: center;
+}
+
+#subscribe-btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #623fd1;
+    font-weight: bold;
+    transition: background 0.5s, color 0.5s;
+    
+}
+
+#subscribe-btn:hover{
+    background: white;
+    color: #623fd1;
+}
+
+
+
+
+/*---- footer ----*/
+
+footer{
+    background: #320a84;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+    
+}
+
+hr{
+    background: #7ffff5;
+}
+
+#footer-link h6{
+    color: white;
+    font-weight: bold;
+}
+
+#footer-link p a{
+    color: #7ffff5;
+    text-decoration: none;
+}
+
+#footer-link a{
+    color: white;
+    transition: color 0.5s
+}
+
+#footer-link a:hover{
+    color: white;
+}
+
+#copyright{
+    color: white;
+}
+
+#terms-privacy a{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+
+/*-----Media query For Mobile-----*/
+
+@media (max-width: 770px){
+#home{
+    background: #320a84;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:1000px;
+    clip-path: ellipse(100% 60% at 50% 40%);
+}
+
+    #copy-terms {
+        display: block;
+    }
+}
+
+/*-----Media query For Tablet-----*/
+@media screen and (max-width: 992px) {
+    .sponsor{
+        margin-left: 15px;
+    }
+}
